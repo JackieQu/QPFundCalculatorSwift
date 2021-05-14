@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283892D3264E092C006852A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283892D1264E092C006852A9 /* Main.storyboard */; };
+		283892D6264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 283892D4264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodeld */; };
+		283892D8264E092D006852A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283892D7264E092D006852A9 /* Assets.xcassets */; };
+		283892DB264E092D006852A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283892D9264E092D006852A9 /* LaunchScreen.storyboard */; };
+		283892E6264E092D006852A9 /* QPFundCalculatorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283892E5264E092D006852A9 /* QPFundCalculatorSwiftTests.swift */; };
+		283892F1264E092D006852A9 /* QPFundCalculatorSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283892F0264E092D006852A9 /* QPFundCalculatorSwiftUITests.swift */; };
+		28389321264E0AA3006852A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28389310264E0AA3006852A9 /* AppDelegate.swift */; };
+		28389322264E0AA3006852A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28389311264E0AA3006852A9 /* SceneDelegate.swift */; };
+		2838932D264E0E0B006852A9 /* QPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838932C264E0E0B006852A9 /* QPBaseViewController.swift */; };
+		28389332264E0E71006852A9 /* QPFundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28389331264E0E71006852A9 /* QPFundViewController.swift */; };
+		28389337264E0E7F006852A9 /* QPHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28389336264E0E7F006852A9 /* QPHomeViewController.swift */; };
+		2838933C264E0E8E006852A9 /* QPProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838933B264E0E8E006852A9 /* QPProfileViewController.swift */; };
+		28389349264E0EC0006852A9 /* QPTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28389348264E0EC0006852A9 /* QPTestViewController.swift */; };
+		2838934E264E1CA1006852A9 /* QPBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838934D264E1CA1006852A9 /* QPBaseTabBarController.swift */; };
+		28389353264E1D2F006852A9 /* QPBaseNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28389352264E1D2F006852A9 /* QPBaseNavController.swift */; };
+		2838935B264E1D66006852A9 /* QPBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838935A264E1D66006852A9 /* QPBaseModel.swift */; };
+		28389361264E200B006852A9 /* QPBaseTabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28389360264E200B006852A9 /* QPBaseTabBarModel.swift */; };
+		28389366264E2025006852A9 /* QPBaseTabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28389365264E2025006852A9 /* QPBaseTabBar.plist */; };
+		2838936E264E4986006852A9 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838936D264E4986006852A9 /* Macro.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		283892E2264E092D006852A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283892C0264E092C006852A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283892C7264E092C006852A9;
+			remoteInfo = QPFundCalculatorSwift;
+		};
+		283892ED264E092D006852A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283892C0264E092C006852A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283892C7264E092C006852A9;
+			remoteInfo = QPFundCalculatorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283892C8264E092C006852A9 /* QPFundCalculatorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPFundCalculatorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283892D2264E092C006852A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		283892D5264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QPFundCalculatorSwift.xcdatamodel; sourceTree = "<group>"; };
+		283892D7264E092D006852A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		283892DA264E092D006852A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		283892DC264E092D006852A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283892E1264E092D006852A9 /* QPFundCalculatorSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPFundCalculatorSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283892E5264E092D006852A9 /* QPFundCalculatorSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPFundCalculatorSwiftTests.swift; sourceTree = "<group>"; };
+		283892E7264E092D006852A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283892EC264E092D006852A9 /* QPFundCalculatorSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPFundCalculatorSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283892F0264E092D006852A9 /* QPFundCalculatorSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPFundCalculatorSwiftUITests.swift; sourceTree = "<group>"; };
+		283892F2264E092D006852A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28389310264E0AA3006852A9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28389311264E0AA3006852A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2838932C264E0E0B006852A9 /* QPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPBaseViewController.swift; sourceTree = "<group>"; };
+		28389331264E0E71006852A9 /* QPFundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPFundViewController.swift; sourceTree = "<group>"; };
+		28389336264E0E7F006852A9 /* QPHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPHomeViewController.swift; sourceTree = "<group>"; };
+		2838933B264E0E8E006852A9 /* QPProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPProfileViewController.swift; sourceTree = "<group>"; };
+		28389348264E0EC0006852A9 /* QPTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPTestViewController.swift; sourceTree = "<group>"; };
+		2838934D264E1CA1006852A9 /* QPBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPBaseTabBarController.swift; sourceTree = "<group>"; };
+		28389352264E1D2F006852A9 /* QPBaseNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPBaseNavController.swift; sourceTree = "<group>"; };
+		2838935A264E1D66006852A9 /* QPBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPBaseModel.swift; sourceTree = "<group>"; };
+		28389360264E200B006852A9 /* QPBaseTabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPBaseTabBarModel.swift; sourceTree = "<group>"; };
+		28389365264E2025006852A9 /* QPBaseTabBar.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QPBaseTabBar.plist; sourceTree = "<group>"; };
+		2838936D264E4986006852A9 /* Macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283892C5264E092C006852A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283892DE264E092D006852A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283892E9264E092D006852A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283892BF264E092C006852A9 = {
+			isa = PBXGroup;
+			children = (
+				283892CA264E092C006852A9 /* QPFundCalculatorSwift */,
+				283892E4264E092D006852A9 /* QPFundCalculatorSwiftTests */,
+				283892EF264E092D006852A9 /* QPFundCalculatorSwiftUITests */,
+				283892C9264E092C006852A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		283892C9264E092C006852A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283892C8264E092C006852A9 /* QPFundCalculatorSwift.app */,
+				283892E1264E092D006852A9 /* QPFundCalculatorSwiftTests.xctest */,
+				283892EC264E092D006852A9 /* QPFundCalculatorSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283892CA264E092C006852A9 /* QPFundCalculatorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				28389304264E0AA3006852A9 /* Classes */,
+				283892D7264E092D006852A9 /* Assets.xcassets */,
+				283892D9264E092D006852A9 /* LaunchScreen.storyboard */,
+				283892D1264E092C006852A9 /* Main.storyboard */,
+				283892DC264E092D006852A9 /* Info.plist */,
+				283892D4264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodeld */,
+			);
+			path = QPFundCalculatorSwift;
+			sourceTree = "<group>";
+		};
+		283892E4264E092D006852A9 /* QPFundCalculatorSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				283892E5264E092D006852A9 /* QPFundCalculatorSwiftTests.swift */,
+				283892E7264E092D006852A9 /* Info.plist */,
+			);
+			path = QPFundCalculatorSwiftTests;
+			sourceTree = "<group>";
+		};
+		283892EF264E092D006852A9 /* QPFundCalculatorSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				283892F0264E092D006852A9 /* QPFundCalculatorSwiftUITests.swift */,
+				283892F2264E092D006852A9 /* Info.plist */,
+			);
+			path = QPFundCalculatorSwiftUITests;
+			sourceTree = "<group>";
+		};
+		28389304264E0AA3006852A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28389317264E0AA3006852A9 /* Base */,
+				2838931C264E0AA3006852A9 /* Fund */,
+				28389305264E0AA3006852A9 /* Home */,
+				28389312264E0AA3006852A9 /* Profile */,
+				28389309264E0AA3006852A9 /* Test */,
+				2838930D264E0AA3006852A9 /* Network */,
+				28389316264E0AA3006852A9 /* Lib */,
+				2838931B264E0AA3006852A9 /* Tool */,
+				2838930E264E0AA3006852A9 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		28389305264E0AA3006852A9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				28389306264E0AA3006852A9 /* Controller */,
+				28389307264E0AA3006852A9 /* Model */,
+				28389308264E0AA3006852A9 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		28389306264E0AA3006852A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28389336264E0E7F006852A9 /* QPHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28389307264E0AA3006852A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28389308264E0AA3006852A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28389309264E0AA3006852A9 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2838930A264E0AA3006852A9 /* Controller */,
+				2838930B264E0AA3006852A9 /* Model */,
+				2838930C264E0AA3006852A9 /* View */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		2838930A264E0AA3006852A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28389348264E0EC0006852A9 /* QPTestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2838930B264E0AA3006852A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2838930C264E0AA3006852A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2838930D264E0AA3006852A9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2838930E264E0AA3006852A9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				28389310264E0AA3006852A9 /* AppDelegate.swift */,
+				28389311264E0AA3006852A9 /* SceneDelegate.swift */,
+				2838936D264E4986006852A9 /* Macro.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		28389312264E0AA3006852A9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				28389313264E0AA3006852A9 /* Controller */,
+				28389314264E0AA3006852A9 /* Model */,
+				28389315264E0AA3006852A9 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		28389313264E0AA3006852A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2838933B264E0E8E006852A9 /* QPProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28389314264E0AA3006852A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28389315264E0AA3006852A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28389316264E0AA3006852A9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		28389317264E0AA3006852A9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				28389318264E0AA3006852A9 /* Controller */,
+				28389319264E0AA3006852A9 /* Model */,
+				2838931A264E0AA3006852A9 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		28389318264E0AA3006852A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2838932C264E0E0B006852A9 /* QPBaseViewController.swift */,
+				28389352264E1D2F006852A9 /* QPBaseNavController.swift */,
+				2838934D264E1CA1006852A9 /* QPBaseTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28389319264E0AA3006852A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2838935A264E1D66006852A9 /* QPBaseModel.swift */,
+				28389360264E200B006852A9 /* QPBaseTabBarModel.swift */,
+				28389365264E2025006852A9 /* QPBaseTabBar.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2838931A264E0AA3006852A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2838931B264E0AA3006852A9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2838931C264E0AA3006852A9 /* Fund */ = {
+			isa = PBXGroup;
+			children = (
+				2838931D264E0AA3006852A9 /* Controller */,
+				2838931E264E0AA3006852A9 /* Model */,
+				2838931F264E0AA3006852A9 /* View */,
+			);
+			path = Fund;
+			sourceTree = "<group>";
+		};
+		2838931D264E0AA3006852A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28389331264E0E71006852A9 /* QPFundViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2838931E264E0AA3006852A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2838931F264E0AA3006852A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283892C7264E092C006852A9 /* QPFundCalculatorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283892F5264E092D006852A9 /* Build configuration list for PBXNativeTarget "QPFundCalculatorSwift" */;
+			buildPhases = (
+				283892C4264E092C006852A9 /* Sources */,
+				283892C5264E092C006852A9 /* Frameworks */,
+				283892C6264E092C006852A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPFundCalculatorSwift;
+			productName = QPFundCalculatorSwift;
+			productReference = 283892C8264E092C006852A9 /* QPFundCalculatorSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		283892E0264E092D006852A9 /* QPFundCalculatorSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283892F8264E092D006852A9 /* Build configuration list for PBXNativeTarget "QPFundCalculatorSwiftTests" */;
+			buildPhases = (
+				283892DD264E092D006852A9 /* Sources */,
+				283892DE264E092D006852A9 /* Frameworks */,
+				283892DF264E092D006852A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				283892E3264E092D006852A9 /* PBXTargetDependency */,
+			);
+			name = QPFundCalculatorSwiftTests;
+			productName = QPFundCalculatorSwiftTests;
+			productReference = 283892E1264E092D006852A9 /* QPFundCalculatorSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		283892EB264E092D006852A9 /* QPFundCalculatorSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283892FB264E092D006852A9 /* Build configuration list for PBXNativeTarget "QPFundCalculatorSwiftUITests" */;
+			buildPhases = (
+				283892E8264E092D006852A9 /* Sources */,
+				283892E9264E092D006852A9 /* Frameworks */,
+				283892EA264E092D006852A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				283892EE264E092D006852A9 /* PBXTargetDependency */,
+			);
+			name = QPFundCalculatorSwiftUITests;
+			productName = QPFundCalculatorSwiftUITests;
+			productReference = 283892EC264E092D006852A9 /* QPFundCalculatorSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283892C0264E092C006852A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					283892C7264E092C006852A9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					283892E0264E092D006852A9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 283892C7264E092C006852A9;
+					};
+					283892EB264E092D006852A9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 283892C7264E092C006852A9;
+					};
+				};
+			};
+			buildConfigurationList = 283892C3264E092C006852A9 /* Build configuration list for PBXProject "QPFundCalculatorSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 283892BF264E092C006852A9;
+			productRefGroup = 283892C9264E092C006852A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283892C7264E092C006852A9 /* QPFundCalculatorSwift */,
+				283892E0264E092D006852A9 /* QPFundCalculatorSwiftTests */,
+				283892EB264E092D006852A9 /* QPFundCalculatorSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283892C6264E092C006852A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28389366264E2025006852A9 /* QPBaseTabBar.plist in Resources */,
+				283892DB264E092D006852A9 /* LaunchScreen.storyboard in Resources */,
+				283892D8264E092D006852A9 /* Assets.xcassets in Resources */,
+				283892D3264E092C006852A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283892DF264E092D006852A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283892EA264E092D006852A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283892C4264E092C006852A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28389332264E0E71006852A9 /* QPFundViewController.swift in Sources */,
+				2838935B264E1D66006852A9 /* QPBaseModel.swift in Sources */,
+				2838933C264E0E8E006852A9 /* QPProfileViewController.swift in Sources */,
+				28389337264E0E7F006852A9 /* QPHomeViewController.swift in Sources */,
+				28389353264E1D2F006852A9 /* QPBaseNavController.swift in Sources */,
+				28389321264E0AA3006852A9 /* AppDelegate.swift in Sources */,
+				28389361264E200B006852A9 /* QPBaseTabBarModel.swift in Sources */,
+				2838936E264E4986006852A9 /* Macro.swift in Sources */,
+				28389349264E0EC0006852A9 /* QPTestViewController.swift in Sources */,
+				283892D6264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodeld in Sources */,
+				28389322264E0AA3006852A9 /* SceneDelegate.swift in Sources */,
+				2838932D264E0E0B006852A9 /* QPBaseViewController.swift in Sources */,
+				2838934E264E1CA1006852A9 /* QPBaseTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283892DD264E092D006852A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283892E6264E092D006852A9 /* QPFundCalculatorSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283892E8264E092D006852A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283892F1264E092D006852A9 /* QPFundCalculatorSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		283892E3264E092D006852A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 283892C7264E092C006852A9 /* QPFundCalculatorSwift */;
+			targetProxy = 283892E2264E092D006852A9 /* PBXContainerItemProxy */;
+		};
+		283892EE264E092D006852A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 283892C7264E092C006852A9 /* QPFundCalculatorSwift */;
+			targetProxy = 283892ED264E092D006852A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		283892D1264E092C006852A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283892D2264E092C006852A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		283892D9264E092D006852A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283892DA264E092D006852A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		283892F3264E092D006852A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		283892F4264E092D006852A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		283892F6264E092D006852A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E5A83P9AJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Other/Macro.swift";
+				INFOPLIST_FILE = QPFundCalculatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jackiequ.github.io.QPFundCalculatorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		283892F7264E092D006852A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E5A83P9AJ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Other/Macro.swift";
+				INFOPLIST_FILE = QPFundCalculatorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jackiequ.github.io.QPFundCalculatorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		283892F9264E092D006852A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E5A83P9AJ;
+				INFOPLIST_FILE = QPFundCalculatorSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jackiequ.github.io.QPFundCalculatorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPFundCalculatorSwift.app/QPFundCalculatorSwift";
+			};
+			name = Debug;
+		};
+		283892FA264E092D006852A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E5A83P9AJ;
+				INFOPLIST_FILE = QPFundCalculatorSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jackiequ.github.io.QPFundCalculatorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPFundCalculatorSwift.app/QPFundCalculatorSwift";
+			};
+			name = Release;
+		};
+		283892FC264E092D006852A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E5A83P9AJ;
+				INFOPLIST_FILE = QPFundCalculatorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jackiequ.github.io.QPFundCalculatorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QPFundCalculatorSwift;
+			};
+			name = Debug;
+		};
+		283892FD264E092D006852A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8E5A83P9AJ;
+				INFOPLIST_FILE = QPFundCalculatorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jackiequ.github.io.QPFundCalculatorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QPFundCalculatorSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283892C3264E092C006852A9 /* Build configuration list for PBXProject "QPFundCalculatorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283892F3264E092D006852A9 /* Debug */,
+				283892F4264E092D006852A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283892F5264E092D006852A9 /* Build configuration list for PBXNativeTarget "QPFundCalculatorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283892F6264E092D006852A9 /* Debug */,
+				283892F7264E092D006852A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283892F8264E092D006852A9 /* Build configuration list for PBXNativeTarget "QPFundCalculatorSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283892F9264E092D006852A9 /* Debug */,
+				283892FA264E092D006852A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283892FB264E092D006852A9 /* Build configuration list for PBXNativeTarget "QPFundCalculatorSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283892FC264E092D006852A9 /* Debug */,
+				283892FD264E092D006852A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		283892D4264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				283892D5264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodel */,
+			);
+			currentVersion = 283892D5264E092C006852A9 /* QPFundCalculatorSwift.xcdatamodel */;
+			path = QPFundCalculatorSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 283892C0264E092C006852A9 /* Project object */;
+}
